@@ -1,0 +1,95 @@
+.fotoinicioBlog {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/public/imagens/Banner/banner-roxoBlog.jpg);
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  margin-top: 0px;
+  filter: drop-shadow(2px 2px 20px #333333);
+}
+
+.box-title-banner-home h1 {
+  filter: drop-shadow(2px 2px 10px #333333);
+}
+
+.box-title-banner-home p {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.box-conteudo-blog {
+  margin: 30px auto;
+  width: 90%;
+  transition: .6s all ease;
+  position: relative;
+  padding: 30px;
+
+  box-shadow: 0 0 10px transparent;
+  bottom: 0;
+  left: 0;
+}
+
+.box-conteudo-blog:hover {
+  box-shadow: 0 0 10px #333;
+  bottom: 10px;
+  left: -10px;
+  transition: .6s all ease;
+  border-radius: 10px;
+}
+
+.box-conteudo-blog a {
+  text-decoration: none;
+}
+
+.box-conteudo-blog img {
+  border-radius: 10px;
+}
+
+.box-conteudo-blog h2 {
+  margin: 15px 0;
+  color: #333;
+  font-size: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.box-conteudo-blog p {
+  color: #000;
+  font-size: 1em;
+  text-align: justify;
+  height: 100px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.box-img-blog-content {
+  height: 285px;
+}
+@media (max-width: 768px) {
+  .box-conteudo-blog {
+    padding: 0;
+  }
+  .box-conteudo-blog h2 {
+    height:auto;
+  }
+  
+  .box-conteudo-blog p {
+  
+    height: auto;
+    overflow-y: visible;
+  }
+  
+  .box-img-blog-content {
+    height: auto;
+  }
+  .box-conteudo-blog:hover {
+
+    padding: 10px;
+  }
+  .flex-invert{
+    flex-direction: row-reverse;
+  }
+}

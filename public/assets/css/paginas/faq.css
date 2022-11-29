@@ -1,0 +1,96 @@
+.fotoiniciofaq {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/public/imagens/Banner/banner-amareloFAQ.jpg);
+  background-position: center;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  margin-top: 0px;
+  filter: drop-shadow(2px 2px 20px #333333);
+}
+
+.box-title-banner-home h1 {
+  filter: drop-shadow(2px 2px 10px #333333);
+}
+
+.box-title-banner-home p{
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+.container h2 {
+  margin: 5% 40% 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.duvidas-frequentes {
+  color: #333333;
+  border-radius: 20px;
+  text-align: initial;
+  padding: 2%;
+  margin: 3%;
+}
+
+.duvidas-frequentes p {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: justify;
+  padding: 2%;
+  margin: 1% 0;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
+
+/* click faq */
+
+.clica-abrir {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.text-aberto {
+  display: none;
+}
+
+.activeFaq {
+  display: block;
+}
+
+.clica-abrir:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.panel{
+  font-weight: 400 !important;
+}
+
+@media (max-width: 768px){
+  .box-title-banner-home{
+    top: 37% !important;
+  }
+}

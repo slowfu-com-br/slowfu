@@ -1,0 +1,52 @@
+.fotoinicioBlog {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/public/imagens/Banner/banner-roxoContBlog.jpg);
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  margin-top: 0px;
+  filter: drop-shadow(2px 2px 20px #333333);
+}
+
+.box-title-banner-home h1 {
+  filter: drop-shadow(2px 2px 10px #333333);
+}
+
+.box-title-banner-home p {
+  font-size: 16px;
+}
+
+.conteudo-blog-content h2 {
+  color: #333;
+  font-size: 2rem;
+  line-height: 32px;
+  margin: 0 0 10px 0;
+}
+
+.conteudo-blog-content sub {
+  font-size: 13px;
+  color: #333;
+}
+
+.conteudo-blog-content p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 29px;
+}
+
+.box-img-conteudo-blog img {
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px #000);
+  margin-bottom: 20px;
+}
+
+.ajuste-home-blog {
+  margin: 50px 0;
+}
+
+@media (max-width: 768px) {
+  .box-title-banner-home {
+    top: 37% !important;
+  }
+}
