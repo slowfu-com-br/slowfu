@@ -149,10 +149,6 @@ app.get('/blog', (req, res) =>{
     res.render("blog.ejs")
 })
 
-app.post("/upload", upload.single("file"), (req, res) => {
-    res.send("O arquivo foi recebido.")
-})
-
 // Rota 
 app.get('/osociobio-apresenta-recomendacoes-a-presidenciaveis-sobre-economia-sustentavel', checkNotAuthenticated, (req, res) =>{
     res.render("osociobio-apresenta-recomendacoes-a-presidenciaveis-sobre-economia-sustentavel.ejs")
